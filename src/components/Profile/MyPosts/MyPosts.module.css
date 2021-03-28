@@ -1,0 +1,23 @@
+.postsBlock {
+  position: relative;
+  padding: 10px;
+}
+
+/* добавить потом исчезающий градиент */
+.postsBlock::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1px;
+  width: 90%;
+  background: #eeeeee;
+}
+
+.headerPosts {
+  margin: 0 0 10px;
+}
+
+.posts {
+  margin-top: 10px;
+}

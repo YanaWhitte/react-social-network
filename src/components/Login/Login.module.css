@@ -1,0 +1,13 @@
+.rememberDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.formSummeryError {
+  display: inline-block;
+  margin: 5px 0;
+  padding: 2px 20px;
+  border: 1px solid red;
+  color: red;
+}

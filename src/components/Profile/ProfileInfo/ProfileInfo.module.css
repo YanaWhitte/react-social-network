@@ -4,13 +4,15 @@
 }
 
 .descriptionBlock {
+  display: flex;
+  flex-direction: column;
   padding: 10px;
 }
 
-.userFullName {
+p {
   margin: 0;
-  text-transform: uppercase;
-  font-size: 40px;
+  /* text-transform: uppercase; */
+  /* font-size: 40px; */
 }
 
 .userAvatar {
@@ -19,7 +21,11 @@
   height: auto;
 }
 
-.userDescriptionDiv {
+.contacts {
+  margin-left: 10px;
+}
+
+/* .userDescriptionDiv {
   width: 280px;
   display: flex;
   justify-content: center;
@@ -31,4 +37,4 @@
   padding: 0;
   margin: 0;
   font-size: 20px;
-}
+} */
